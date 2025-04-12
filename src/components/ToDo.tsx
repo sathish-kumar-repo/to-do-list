@@ -51,7 +51,6 @@ const ToDo = () => {
         <div className="flex gap-2">
           <div className="flex-1">
             <input
-              ref={inputRef}
               type="text"
               className="py-3 px-4 w-full text-sm border focus:outline-none focus:border-amber-500"
               placeholder="Add yout task"
